@@ -108,8 +108,7 @@ content:
     region: content
   field_edition:
     type: string
-    label: above_core:
-  default_config_hash: up5OiUOxIk8Yi8BLpGoxteR5iY5A0KeyYDcTvUeeFgA
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -140,8 +139,7 @@ content:
     weight: 6
     region: content
   field_edtf_date_issued:
-    type: edtf_default_core:
-  default_config_hash: up5OiUOxIk8Yi8BLpGoxteR5iY5A0KeyYDcTvUeeFgA
+    type: edtf_default
     label: above
     settings:
       date_separator: dash
@@ -203,8 +201,7 @@ content:
     settings:
       view_mode: default
       link: false
-    third_party_settings:_core:
-  default_config_hash: up5OiUOxIk8Yi8BLpGoxteR5iY5A0KeyYDcTvUeeFgA
+    third_party_settings:
       fico:
         fico:
           condition: ''
@@ -224,8 +221,7 @@ content:
     type: string
     label: above
     settings:
-      link_to_entity: false_core:
-  default_config_hash: up5OiUOxIk8Yi8BLpGoxteR5iY5A0KeyYDcTvUeeFgA
+      link_to_entity: false
     third_party_settings: {  }
     weight: 26
     region: content
@@ -254,8 +250,7 @@ content:
     weight: 4
     region: content
   field_note:
-    type: text_default_core:
-  default_config_hash: up5OiUOxIk8Yi8BLpGoxteR5iY5A0KeyYDcTvUeeFgA
+    type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -370,4 +365,3 @@ hidden:
   pdfjs_media_evas_entity_view_2: true
   pdfjs_media_evas_service_file: true
   search_api_excerpt: true
-
