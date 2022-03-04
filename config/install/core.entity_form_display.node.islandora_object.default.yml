@@ -38,7 +38,6 @@ dependencies:
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
-    - field.field.node.islandora_object.field_view_mode
     - field.field.node.islandora_object.field_weight
     - node.type.islandora_object
   module:
@@ -48,7 +47,6 @@ dependencies:
     - media_library
     - path
     - text
-    - view_mode_switch
   enforced:
     module:
       - islandora_defaults
@@ -63,7 +61,6 @@ third_party_settings:
         - field_display_hints
         - field_pid
         - field_weight
-        - field_view_mode
       label: System
       region: content
       parent_name: group_tabs_view
@@ -465,12 +462,6 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_view_mode:
-    type: view_mode_switch
-    weight: 15
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_weight:
     type: number
