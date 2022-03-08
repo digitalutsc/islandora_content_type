@@ -146,8 +146,6 @@ third_party_settings:
         classes: ''
         id: ''
         direction: horizontal
-_core:
-  default_config_hash: PJWa_gzg0J3pjYWhw5KwIM7VJo3L_evf6iWhvHjOt34
 id: node.islandora_object.default
 targetEntityType: node
 bundle: islandora_object
