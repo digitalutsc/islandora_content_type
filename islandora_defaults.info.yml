@@ -28,7 +28,6 @@ dependencies:
   - user
   - views
   - replaywebpage
-  - islandora_marc_countries
   - migrate_plus
   - migrate_source_csv
 package: Islandora
