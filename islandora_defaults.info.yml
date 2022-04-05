@@ -7,6 +7,7 @@ dependencies:
   - content_translation
   - controlled_access_terms
   - controlled_access_terms_defaults
+  - islandora_marc_countries
   - field
   - field_group
   - field_permissions
