@@ -301,7 +301,7 @@ content:
     region: content
     settings:
       strict_dates: false
-      intervals: false
+      intervals: true
       sets: false
     third_party_settings: {  }
   field_edtf_date_created:
@@ -310,7 +310,7 @@ content:
     region: content
     settings:
       strict_dates: false
-      intervals: false
+      intervals: true
       sets: false
     third_party_settings: {  }
   field_edtf_date_issued:
@@ -319,7 +319,7 @@ content:
     region: content
     settings:
       strict_dates: false
-      intervals: false
+      intervals: true
       sets: false
     third_party_settings: {  }
   field_exhibit_name:
